@@ -1,0 +1,12 @@
+package constructor_injection_5;
+
+import java.util.Map;
+
+public class Question {
+	private int id;  
+	private String name;  
+	private Map<String,String> answers;  
+	
+	
+	
+}

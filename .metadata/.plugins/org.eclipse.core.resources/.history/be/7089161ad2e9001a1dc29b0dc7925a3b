@@ -1,0 +1,9 @@
+package constructor_injection_3;
+
+public class Question {
+	
+	private int id;  
+	private String name;  
+	private List<String> answers;  
+
+}

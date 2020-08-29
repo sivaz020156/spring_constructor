@@ -1,0 +1,17 @@
+package constructor_injection_5;
+
+import java.util.ResourceBundle;
+
+import org.springframework.core.io.ClassPathResource;
+
+public class Test {
+	
+	public static void main(String[] args) {  
+	    Resource r=new ClassPathResource("applicationContext.xml");  
+	    BeanFactory factory=new XmlBeanFactory(r);  
+	      
+	    Question q=(Question)factory.getBean("q");  
+	    q.displayInfo();  
+	      
+	}
+}
